@@ -120,9 +120,9 @@ footer {
 
 }
 .logo {
-   position: fixed;
-   height: auto;
-   right: 10px;
    width: 250px;
+   height: auto;
+   position: fixed;
    top: 10px;
+   right: 10px;
 }
