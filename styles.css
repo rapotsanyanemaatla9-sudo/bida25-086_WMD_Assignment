@@ -122,6 +122,7 @@ footer {
 .logo {
    position: fixed;
    height: auto;
-   left: 0px;
+   right: 10px;
    width: 250px;
+   top: 10px;
 }
