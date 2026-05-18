@@ -96,17 +96,26 @@
             <a href="signup.html">Sign up</a>
     <h3>Already a member at Ryder Digitals?
         Contine to login and explore the world of digital marketing with us!</h3>
-    <form action="" method="post">
-        <fieldset>
-            <legend>Login</legend>
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email"><br>
-        <label for="password">Password:</label><br>
-        <input type="password" id="password" name="password"><br>
-        </fieldset>
-        <input type="submit" value="Login">
+    <h2>Login</h2>
+    <form action="/action_page.php" method="post">
+        <div class="imgcontainer">
+            <img src="img_avatar2.png" alt="Avatar" class="avatar">
+        </div>
+        <div class="container">
+            <label for="uname">
+                <b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="uname" required>
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+            <button type="submit">Login</button>
+            <label>
+                <input type="checkbox" checked="checked" name="remember">Remember me</label>
+        </div>
+        <div class="container" style="background-color: #f1f1f1">
+            <button type="button" class="cancelbtn">Cancel</button>
+            <span class="psw"> <a href="forgotpassword.html">Forgot Password?</a></span>
+        </div>
     </form>
-    <a href="forgotpassword.html">Forgot Password?</a>
     </main>
 <footer>
     <p>&copy; 2026 Ryder Digitals. All rights reserved.</p>
