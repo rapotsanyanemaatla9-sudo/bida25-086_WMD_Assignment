@@ -143,10 +143,9 @@ footer {
     display: flex;
     align-items: flex-start;
     gap: 2rem;
-    background-color: black;
+    background-color: white;
     border-radius: 1rem;
-    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
-    cursor: pointer;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.2)
 }
 .card img{
     max-width: 75px;
@@ -162,7 +161,6 @@ footer {
     color: #1d2d43;
     font-size: 1rem;
     font-weight: 500;
-
 }
 
 
