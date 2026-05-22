@@ -134,10 +134,6 @@ footer {
     grid-template-columns: repeat(2, 1fr);
     gap: 10rem;
 }
-.container_left p {
-    color: white;
-    margin-bottom: 1rem;
-}
 .container_right {
     display: grid;
     gap: 2rem;
@@ -156,10 +152,6 @@ footer {
     max-width: 75px;
     border-radius: 100%;
 }
-.card content{
-    display: flex;
-    gap: 1rem;
-}
 .card details p{
     font-style: italic;
     color: black;
@@ -170,7 +162,7 @@ footer {
     color: #1d2d43;
     font-size: 1rem;
     font-weight: 500;
-    
+
 }
 
 
